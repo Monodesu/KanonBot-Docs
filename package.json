@@ -1,5 +1,13 @@
 {
-  "devDependencies": {
-    "vuepress": "^1.8.2"
-  }
+    "name": "KanonBot-Docs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/KanonTeam/KanonBot-Docs.git",
+    "devDependencies": {
+        "vuepress": "^1.8.2"
+    },
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    }
 }
