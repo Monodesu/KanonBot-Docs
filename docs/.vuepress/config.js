@@ -14,10 +14,6 @@ module.exports = {
         }
     },
     themeConfig: {
-        docsDir: 'docs',
-        docsBranch: 'develop',
-        repoLabel: 'GitHub',
-        docsRepo: 'KanonTeam/KanonBot-Docs',
         logo: '',
         smoothScroll: true,
         sidebarDepth: 2,
