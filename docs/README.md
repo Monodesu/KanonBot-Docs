@@ -1,5 +1,3 @@
-#KanonBot-Docs
-=======
 ---
 home: true
 heroImage: https://ftp.bmp.ovh/imgs/2021/05/50c11c0deb318bdd.png

@@ -20,4 +20,4 @@ jobs:
           TARGET_BRANCH: main
           BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist/
-          CNAME: https://botdocs.kaon.cc
+          CNAME: https://botdocs.kanonbot.com
