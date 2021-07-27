@@ -30,7 +30,7 @@ module.exports = {
             ],
             '/Guide/': [
                 '/Guide/',
-                '/Guide/QuickStart/'
+                '/Guide/KanonBot/'
             ]
         }
     }
