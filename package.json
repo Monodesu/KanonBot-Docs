@@ -9,5 +9,9 @@
     "scripts": {
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs"
+    },
+    "dependencies": {
+        "global": "^4.4.0",
+        "yarn": "^1.22.11"
     }
 }

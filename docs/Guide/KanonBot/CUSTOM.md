@@ -1,10 +1,10 @@
-[TOC]
+ï»¿[TOC]
 
 
-## ×Ô¶¨ÒåÏà¹Ø
+## è‡ªå®šä¹‰ç›¸å…³
 
-### osuÃæ°å×Ô¶¨Òå
- * `!setbanner` ÏÔÊ¾°ïÖú
- * `!setbanner [img]` ÉèÖÃ×ÊÁÏ¿¨Í·Í¼
- * `!setinfopanel` ÏÔÊ¾°ïÖú
- * `!setinfopanel [img]` ÉèÖÃ×ÊÁÏ¿¨Ãæ°å
+### osué¢æ¿è‡ªå®šä¹‰
+ * `!setbanner` æ˜¾ç¤ºå¸®åŠ©
+ * `!setbanner [img]` è®¾ç½®èµ„æ–™å¡å¤´å›¾
+ * `!setinfopanel` æ˜¾ç¤ºå¸®åŠ©
+ * `!setinfopanel [img]` è®¾ç½®èµ„æ–™å¡é¢æ¿
