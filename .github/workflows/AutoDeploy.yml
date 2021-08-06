@@ -1,13 +1,11 @@
 name: Auto Deploy
-
 on: 
   push:
     branches: [ release ]
-    
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
     steps:
       - name: checkout
         uses: actions/checkout@master
