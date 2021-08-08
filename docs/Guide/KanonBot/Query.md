@@ -1,6 +1,18 @@
 ## 查询
 
 ### OSU
+
+::: tip
+`[num]` 通常是指1~100的整数<br>
+`[mode]` 取值 0~3 ，0=osu!，1=taiko，2=catch the beat，3=mania<br>
+`[name]` 通常是指osu!玩家的用户名，例如`cookiezi`<br>
+`[@]` 通常是指在群内at某人<br>
+`!recent` 可被缩写为 `!re`<br>
+查询自己成绩时， `!bp #[num]` 中的 `#` 号可被省略<br>
+<br>
+带有删除线的功能则为暂不可用功能
+:::
+
 + #### 个人信息
 * `!info` 查询个人信息
 * `!info :[mode]` 查询其他模式
@@ -30,16 +42,16 @@
 * `!bp [name]#[num]:[mode]` 查询他人指定模式bp，`[num]`缺省默认查询bp1
 * `!score [bid]` 查询你在这张图的成绩
 * `!score [bid]+[mods]` 查询你在这张图添加MOD后的成绩
-* `!pp [bid]` 查询这张图的pp信息
-* `!pp [bid]:[mode]` 查询指定模式这张图的pp信息
-* `!pp [bid]:[mode]+[mods]` 查询添加MOD后这张图的pp信息
-* `!bpht` 查询bp头尾差异
-* `!bpht :[mode]` 查询指定模式的bp头尾差异
-* `!bpht [name]` 查询他人bp头尾差异
-* `!bpht [name]:[mode]` 查询他人指定模式的bp头尾差异
-* `!ppvs [name]` 和他人对比pp+信息
-* <s> `!occost 输出猫猫杯cost信息 </s>
+* <s>`!pp [bid]`</s> 查询这张图的pp信息
+* <s>`!pp [bid]:[mode]`</s> 查询指定模式这张图的pp信息
+* <s>`!pp [bid]:[mode]+[mods]`</s> 查询添加MOD后这张图的pp信息
+* <s>`!bpht`</s> 查询bp头尾差异
+* <s>`!bpht :[mode]`</s> 查询指定模式的bp头尾差异
+* <s>`!bpht [name]`</s> 查询他人bp头尾差异
+* <s>`!bpht [name]:[mode]`</s> 查询他人指定模式的bp头尾差异
+* <s>`!ppvs [name]`</s> 和他人对比pp+信息
+* <s>`!rolecost [tournament]`</s> 输出比赛cost信息 
 ----------------
 ### Steam
 
-TBD
+WIP
