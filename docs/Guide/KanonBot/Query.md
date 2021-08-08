@@ -38,7 +38,7 @@
 * `!bpht [name]` 查询他人bp头尾差异
 * `!bpht [name]:[mode]` 查询他人指定模式的bp头尾差异
 * `!ppvs [name]` 和他人对比pp+信息
-* <s> `!occost` 输出猫猫杯cost信息 </s>
+* <s> `!occost 输出猫猫杯cost信息 </s>
 ----------------
 ### Steam
 
