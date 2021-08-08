@@ -39,8 +39,8 @@ module.exports = {
             ],
             '/ChangeLog/': [
                 '/ChangeLog/',
-                '/ChangeLog/BotChangeLog/',
-                '/ChangeLog/ChangeLog/',
+                '/ChangeLog/BotChangeLog',
+                '/ChangeLog/ChangeLog',
             ]
         }
     }
