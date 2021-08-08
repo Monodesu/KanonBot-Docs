@@ -7,7 +7,7 @@
 ### 参数
 
 `[...]`：
-+ osu!
++ osu
 + steam
-+ 开黑啦
++ kaiheila   (开黑啦)
 + kanon
