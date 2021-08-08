@@ -75,6 +75,7 @@ typings/
 # nuxt.js build output
 .nuxt
 
+
 # vuepress build output
 .vuepress/dist
 
@@ -87,11 +88,4 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-<<<<<<< HEAD
-# TernJS port file
-.tern-port
-.vs/slnx.sqlite
-*.sqlite
-=======
 .idea/
->>>>>>> parent of f4fc391 (Update)
