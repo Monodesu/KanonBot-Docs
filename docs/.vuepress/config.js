@@ -21,7 +21,8 @@ module.exports = {
         activeHeaderLinks: true,
         nav: [
             { text: '主页', link: '/' },
-            { text: 'EULA', link: '/EULA/' },
+            { text: '许可协议', link: '/Eula/' },
+            { text: '更新日志', link: '/ChangeLog/' },
             { text: '官网', link: 'https://www.kanonbot.com' },
         ],
         sidebar: {
@@ -30,7 +31,16 @@ module.exports = {
             ],
             '/Guide/': [
                 '/Guide/',
-                '/Guide/QuickStart/'
+                '/Guide/KanonBot/',
+                '/Guide/KanonBot/Bind',
+                '/Guide/KanonBot/Query',
+                '/Guide/KanonBot/Custom',
+                '/Guide/KanonBot/Other',
+            ],
+            '/ChangeLog/': [
+                '/ChangeLog/',
+                '/ChangeLog/BotChangeLog/',
+                '/ChangeLog/ChangeLog/',
             ]
         }
     }
