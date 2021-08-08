@@ -1,10 +1,24 @@
 module.exports = {
-    title: 'KanonBot',
-    description: 'KanonBot中文使用文档',
     lang: 'zh-CN',
+    locales: {
+        // 作为特例，默认语言可以使用 '/' 作为其路径。
+        '/en/': {
+            lang: 'en-US',
+            title: 'KanonBot',
+            description: 'KanonBot documents'
+        },
+        '/zh/': {
+            lang: 'zh-CN',
+            title: 'KanonBot',
+            description: 'KanonBot中文使用文档'
+        }
+    },
     themeConfig: {
+        logo: '',
         smoothScroll: true,
-        lastUpdated: '上次编辑',
+        sidebarDepth: 2,
+        displayAllHeaders: false,
+        activeHeaderLinks: true,
         nav: [
             { text: '主页', link: '/' },
             { text: '许可协议', link: '/Eula/' },
@@ -12,8 +26,8 @@ module.exports = {
             { text: '官网', link: 'https://www.kanonbot.com' },
         ],
         sidebar: {
-            '/Eula/': [
-                '/Eula/'
+            '/EULA/': [
+                '/EULA/'
             ],
             '/Guide/': [
                 '/Guide/',
@@ -28,22 +42,6 @@ module.exports = {
                 '/ChangeLog/BotChangeLog/',
                 '/ChangeLog/ChangeLog/',
             ]
-        },
-        sidebarDepth: 2,
-        displayAllHeaders: false,
-        activeHeaderLinks: true
-    },
-    plugins: {
-        '@vuepress/back-to-top':true,
-        '@vuepress/pwa': {
-            serviceWorker: true,
-            updatePopup: {
-                message: "有新的内容更新啦！",
-                buttonText: "立刻刷新"
-            }
-        },
-        '@renovamen/vuepress-plugin-baidu-tongji': {
-            'ba': 'd30df5ef4f62379ef19a44566bc7df2a'
         }
     }
 }
