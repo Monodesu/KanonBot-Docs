@@ -8,6 +8,7 @@ module.exports = {
         nav: [
             { text: '主页', link: '/' },
             { text: '许可协议', link: '/Eula/' },
+            { text: '更新日志', link: '/ChangeLog/' },
             { text: '官网', link: 'https://www.kanonbot.com' },
         ],
         sidebar: {
