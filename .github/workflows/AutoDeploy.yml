@@ -1,17 +1,17 @@
 name: Auto Deploy
 
-on: 
+on:
   push:
     branches: [ release ]
-    
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: checkout
         uses: actions/checkout@master
-        
+
       - name: vuepress-deploy
         uses: jenkey2011/vuepress-deploy@master
         env:
@@ -20,4 +20,4 @@ jobs:
           TARGET_BRANCH: main
           BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist/
-          CNAME: https://botdocs.kanonbot.com
+          CNAME: https://docs.kanonbot.com
